@@ -1,0 +1,48 @@
+@media screen and (max-width: 767px) {
+    h1{
+        height: 3rem;
+        font-size: 2rem;
+        line-height: 3rem;
+        text-align: center;
+    }
+    .choices{
+        flex-direction: column;
+    }
+    
+    .choice {
+        height: 150px;
+        width: 150px;
+       
+    }
+    img{
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        
+    }
+    .choices{
+        margin-top: 2rem;
+        gap: 1rem
+    }
+    .score-board{
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        gap: 4rem;
+
+    }
+    #user-score{
+        font-size: 3rem;
+    }
+    #Computer-score{
+        font-size:3rem;
+    }
+    #msg{
+        font-size: 2rem;
+        margin-top: 4rem;
+        padding: 12px;
+        line-height: 10rem
+        
+    }
+    
+}
